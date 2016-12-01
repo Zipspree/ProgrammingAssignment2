@@ -1,6 +1,6 @@
 ## Caches the inverse of a matrix
 ## The functions below create a matrix object that can cache its inverse,
-## compute the inverse of the matrix, and enable it to be retrieved and reused without repeated computation
+## enabling it to be retrieved and reused without repeated computation
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
