@@ -18,12 +18,12 @@ inv <- NULL
              setInverse = setInverse,
              getInverse = getInverse)
 }
-
-                ## The function below determines the invest of the matrix created by makeCacheMatrix
+                
+## The function below determines the invest of the matrix created by makeCacheMatrix
 ## When the inverse has already been calculated, then it uses the cached inverse instead of recalculating it                
 
 cacheSolve <- function(x, ...) {
-       ## Return a matrix that is the inverse of 'x'
+## Return a matrix that is the inverse of 'x'
         inv <- x$getInverse()
         if (!is.null(inv)) {
                 message("getting cached data")
