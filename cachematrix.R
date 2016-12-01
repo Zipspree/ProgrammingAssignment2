@@ -19,8 +19,7 @@ inv <- NULL
              getInverse = getInverse)
 }
 
-
-## The function below determines the invest of the matrix created by makeCacheMatrix
+                ## The function below determines the invest of the matrix created by makeCacheMatrix
 ## When the inverse has already been calculated, then it uses the cached inverse instead of recalculating it                
 
 cacheSolve <- function(x, ...) {
